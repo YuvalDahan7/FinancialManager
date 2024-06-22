@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  gap: 20px;
+  background-color: rgb(192, 193, 193);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.userName, .password {
+    display: flex;
+    font-size: 14px;
+    gap: 5px;
+    input {
+        padding: 5px;
+        font-size: 12px;
+    }
+}
+
+.forgot-password a {
+    font-weight: bold;
+    font-size: 11px;
+    color: rgb(22, 133, 223);
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-in-btn, .sign-in-google {
+    padding: 5px;
+    border-radius: 10px;
+    width: 200px;
+}
