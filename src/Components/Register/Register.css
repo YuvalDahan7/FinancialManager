@@ -1,0 +1,58 @@
+.container {
+  width: 300px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header p {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.info {
+  margin-bottom: 20px;
+}
+
+.info div {
+  margin-bottom: 10px;
+}
+
+.info input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.btn,
+.sign-in-with-google {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(53, 124, 230);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.sign-in-with-google {
+  color: rgb(94, 94, 95);
+  background-color: #fff;
+}
+
+.sign-in-with-google:hover,
+.btn:hover {
+  opacity: 0.8;
+}
+
+.bottom-border {
+  border-bottom: 1px dotted black;
+  margin: 0;
+}

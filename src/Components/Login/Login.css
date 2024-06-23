@@ -2,49 +2,65 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 10px;
+  padding: 40px;
   gap: 20px;
   background-color: rgb(192, 193, 193);
 }
 
-.header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 32px;
+.header p {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
 }
 
-.info{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.userName, .password {
-    display: flex;
-    font-size: 14px;
-    gap: 5px;
-    input {
-        padding: 5px;
-        font-size: 12px;
-    }
+.userName,
+.password {
+  display: flex;
+  font-size: 14px;
+  gap: 5px;
+  input {
+    padding: 5px;
+    font-size: 12px;
+  }
 }
 
 .forgot-password a {
-    font-weight: bold;
-    font-size: 11px;
-    color: rgb(22, 133, 223);
+  font-weight: bold;
+  font-size: 11px;
+  color: rgb(22, 133, 223);
 }
 
 .btns {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  p {
+    font-size: 12px;
+    margin: 3px;
+  }
 }
 
-.sign-in-btn, .sign-in-google {
-    padding: 5px;
-    border-radius: 10px;
-    width: 200px;
+/* .btn,
+.sign-in-with-google {
+  color: #fff;
+  width: 60%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(53, 124, 230);
+  border: none;
+  width: 200px;
+  cursor: pointer;
+} */
+
+.sign-in-with-google {
+  color: rgb(94, 94, 95);
+  background-color: #fff;
 }
